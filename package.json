@@ -1,0 +1,30 @@
+{
+  "name": "node-socket.io",
+  "version": "1.0.0",
+  "description": "node socket.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsonanh/node-socker.io.git"
+  },
+  "keywords": [
+    "node",
+    "socket.io"
+  ],
+  "author": "nsonanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsonanh/node-socker.io/issues"
+  },
+  "homepage": "https://github.com/nsonanh/node-socker.io#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.8",
+    "socket.io": "^2.2.0"
+  }
+}
